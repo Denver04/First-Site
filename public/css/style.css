@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: #bcffe8;
+}
+h1{
+    text-align: center;
+    color: red;
+    line-height: 2;
+}
+.form{
+    background-color: rgb(250, 234, 215);
+    height: 420px;
+}
+.input{
+    display: inline;
+    width: 60%;
+    margin: 8px 0px;
+}
+.logForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position: relative;
+    left: 36%;
+    top: 20px;
+    margin: 5px;
+    padding: 4px;
+    /* border: 2px solid red; */
+    box-shadow: 4px 4px 7px #fab1b1;
+}
+.Userdetails{
+    text-align: center;
+    width: 30%;
+}
+.button{
+    text-align: center;
+    font-size: 20px;
+}
+.logbtn{
+    position: relative;
+    left: 36%;
+    margin: 20px;
+   font-size: 20px;
+}
+.aboutHead{
+    margin: 10px;
+    /* padding: 0px; */
+    font-size: 28px;
+    font-style: italic;
+    color: #7e67fe;
+    text-decoration: underline;
+}
+.subhead{
+    font-size: 20px;
+    font-weight: 640;
+    margin: 10px;
+    color: #fa734a;
+}
+.information{
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 8px;
+    color: lightslategray;
+}
+.footer{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 20px;
+    background-color: rgb(216, 247, 169);
+    position: relative;
+    top: 70px;
+}

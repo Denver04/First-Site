@@ -1,0 +1,31 @@
+<%- include("private/header"); %> 
+
+<h1>About Me</h1>
+<% details.forEach(function(infos){ %>
+    <h3 class="aboutHead">Personal Information :</h3>
+    <p><span class="subhead">Name :</span> <span class="information"><%= infos.name %> </span> </p>
+    <p> <span class="subhead">Mother's Name :</span> <span class="information"> <%= infos.MName %></span> </p>
+    <p> <span class="subhead">Father Name :</span> <span class="information"> <%= infos.FName %></span> </p>
+    <p> <span class="subhead">DOB :</span> <span class="information"> <%= infos.DOB %></span> </p>
+    <p> <span class="subhead">Mobile :</span> <span class="information"> <%= infos.Phn %></span> </p>
+    <p> <span class="subhead">Email :</span> <span class="information"> <%= infos.email %></span> </p>
+    <hr>
+    <h3 class="aboutHead">Login Information : </h3>
+    <p> <span class="subhead">Username :</span> <span class="information"> <%= infos.user %></span> </p>
+    <p> <span class="subhead">Password :</span> <span class="information"> <%= infos.pswd %></span> </p>
+    <hr>
+    <h3 class="aboutHead">Other Details :</h3>
+    <p> <span class="subhead">Aadhar Card No. :</span> <span class="information"> <%= infos.Aadhar %></span> </p>
+    <p> <span class="subhead">Caste :</span> <span class="information"> <%= infos.Caste %></span> </p>
+    <p> <span class="subhead">State :</span> <span class="information"> <%= infos.state %></span> </p>
+    <p> <span class="subhead">Town :</span> <span class="information"> <%= infos.town %></span> </p>
+    <p> <span class="subhead">City :</span> <span class="information"> <%= infos.city %></span> </p>
+    <p> <span class="subhead">Village :</span> <span class="information"> <%= infos.village %></span> </p>
+    <p> <span class="subhead">PIN :</span> <span class="information"> <%= infos.zip %></span></p>
+
+
+<% }) %> 
+
+
+
+<%- include("private/footer"); %> 

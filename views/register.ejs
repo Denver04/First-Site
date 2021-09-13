@@ -1,0 +1,60 @@
+<%- include("private/header") -%> 
+
+<h1>REGISTRATION FORM</h1>
+
+<form action="/" method="post" class="row form">
+    <div class="col-md-4">
+        Name : <input type="text" class="form-control input" name="UserName" autocomplete="off" placeholder="Enter your Name"  required>
+    </div>
+    <div class="col-md-4">
+        Mother's Name : <input type="text" class="form-control input" name="MotherName" autocomplete="off" placeholder="Enter your Mther's Name" required>
+    </div>
+    <div class="col-md-4">
+        Father's Name : <input type="text" class="form-control input" autocomplete="off" name="FatherName" placeholder="Enter your father's Name" required>
+    </div>
+    <div class="col-md-4">  
+          DOB : <input type="text" class="form-control input" autocomplete="off" name="DOB" required pattern="[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="ddmmyy">
+    </div>
+    <div class="col-md-4">  
+        Mobile No. : <input type="text" class="form-control input" autocomplete="off" name="PhnNo" placeholder="Contact" maxlength="10" required>
+  </div>
+    <div class="col-md-4">  
+          Aahdhar Card NO.: <input type="text" class="form-control input" name="AadharNo" autocomplete="off" placehold="Enter your Aadhar No." pattern="[0-9]{12}" required>
+    </div>
+    <div class="col-md-4">  
+          Caste : <input type="text" class="form-control input" autocomplete="off" name="Caste" placeholder="Caste" required>
+    </div>
+    <div class="col-md-4">   
+         State : <input type="text" class="form-control input" autocomplete="off" name="State" placeholder="State name" required>
+    </div>
+    <div class="col-md-4">  
+          Town : <input type="text" class="form-control input" autocomplete="off" name="Town" placeholder="your town" required>
+    </div>
+    <div class="col-md-4">   
+         City : <input type="text" class="form-control input" autocomplete="off" name="City" placeholder="City Name" required>
+    </div>
+    <div class="col-md-4">  
+          Village : <input type="text" class="form-control input" autocomplete="off" name="Village" placeholder="Village Name" required>
+    </div>
+    <div class="col-md-4">  
+          PIN : <input type="text" class="form-control input" autocomplete="off" name="PIN" placeholder="PIN Code" required>
+    </div>
+    <hr>
+    <div class="Userdetails">  
+          Username : <input type="text" class="form-control input" name="Username" autocomplete="off" required>
+    </div>
+    <div class="Userdetails">  
+          Email : <input type="email" class="form-control input" name="Email" autocomplete="off" required>
+    </div>
+    <div class="Userdetails">  
+          Password : <input type="password" class="form-control input"  name="Password" autocomplete="off" required>
+    </div>
+    <div class="button">
+        <button class="btn btn-lg btn-primary btn-outline-light" type="submit">Sign Up</button>
+    </div>
+
+
+
+</form>
+
+<%- include("private/footer") -%> 

@@ -1,0 +1,25 @@
+<%- include("private/header") %> 
+
+
+<form action="/login" method="POST" class="row logForm">
+    <h1>Log In</h1>
+
+    <div class="col" style="margin: 5px;">
+        Username : <input type="text" class="form-control" name="loggedName" autocomplete="off">
+    </div>
+
+    <div class="col" style="margin: 5px;">
+        Mobile No. : <input type="text" name="loggedPhnNo" pattern="[0-9]{10}" maxlength="10" class="form-control" autocomplete="off">
+    </div>
+
+    <div class="col" style="margin: 5px;">
+        Password : <input type="password" name="loggedPass" class="form-control" autocomplete="off">
+    </div>
+    <div class="col">
+        <button class="btn btn-sm btn-primary button logbtn" type="submit">Log In</button>
+    </div>
+</form>
+
+
+
+<%- include("private/footer") -%>
