@@ -6,9 +6,11 @@
     background-color: #bcffe8;
 }
 h1{
+    font-family: 'El Messiri', sans-serif;
     text-align: center;
     color: red;
     line-height: 2;
+    font-weight: 600;
 }
 .form{
     background-color: rgb(250, 234, 215);
@@ -50,14 +52,16 @@ h1{
 .aboutHead{
     margin: 10px;
     /* padding: 0px; */
+    /* font-family: 'Akaya Telivigala', cursive; */
     font-size: 28px;
     font-style: italic;
     color: #7e67fe;
     text-decoration: underline;
 }
 .subhead{
-    font-size: 20px;
-    font-weight: 640;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 500;
     margin: 10px;
     color: #fa734a;
 }
